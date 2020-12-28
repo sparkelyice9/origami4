@@ -1,0 +1,63 @@
+.header{
+    background-color: #94baff;
+    display: flex;
+    justify-content:space-between;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    font-size:20px;
+    background-color: rgb(148, 186, 255);
+    font-family:sans-serif;
+    padding:15px;
+    font-weight:400;
+    color:white;
+}
+
+.startbody{
+    display: flex;
+    justify-content:space-between;
+    background-color:#ffb4fb;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.body{
+    margin:0px;
+    background-color: #f7f3f2;
+}
+
+.grid img{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: #fcff61;
+    font-family:fantasy;
+}
+
+.menu a{
+    margin-left:30px;
+}
+
+.item{
+    position: relative;
+}
+
+.item p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.item:hover p {
+    opacity: 1;
+}
+
+.item:hover img{
+  opacity: 0.33;
+}
